@@ -148,8 +148,9 @@ badger_os.state_load("badge", state)
 badges = read_data("/badges/badge.txt")
 images = find_images("/badges")
 
-# Avoid trying to be an invalid state if images are removed.
+# Fix any invalid indexes
 state["picture_idx"] = state["picture_idx"] % len(images)
+state["badge_idx"] = state["badge_idx"] % len(badges)
 
 display = badger2040.Badger2040()
 display.led(128)
