@@ -145,7 +145,7 @@ def handle_event():
 #        Init State
 # ------------------------------
 badger_os.state_load("badge", state)
-badges = read_data("/badges/badge.txt")
+badges = read_data("/badges/badge.tsv")
 images = find_images("/badges")
 
 # Fix any invalid indexes
