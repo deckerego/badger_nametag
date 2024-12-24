@@ -9,7 +9,7 @@ Inspired by the [badge++ example](https://github.com/badger/home/tree/main/examp
 1. Create a `badges/` directory underneath root
 1. Place any appropriately sized images in the `badges/` directory (examples are provided in this repo)
 1. Update the provided `badges/badge.txt` file with your own data to be displayed
-1. Upload the `badges/badge.txt` file to the `badges/` directory
+1. Upload the `badges/badge.tsv` file to the `badges/` directory
 
 ## Usage
 - `A` Button: Change the font
